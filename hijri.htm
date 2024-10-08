@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Hijri Calendar</title>
+	<script type='text/javascript' src='hijri.js'></script>
+	<link href='styles.css' type='text/css' rel='stylesheet'>
+</head>
+<body>
+<p>
+<script language='JavaScript'> 
+var laDOW = new Array(7);
+laDOW[0] = 'zondag';
+laDOW[1] = 'maandag';
+laDOW[2] = 'dinsdag';
+laDOW[3] = 'woensdag';
+laDOW[4] = 'donderdag';
+laDOW[5] = 'vrijdag';
+laDOW[6] = 'zaterdag';
+
+var laMonths = new Array(12);
+laMonths[0] = 'januari';
+laMonths[1] = 'februari';
+laMonths[2] = 'maart';
+laMonths[3] = 'april';
+laMonths[4] = 'mei';
+laMonths[5] = 'juni';
+laMonths[6] = 'juli';
+laMonths[7] = 'augustus';
+laMonths[8] = 'september';
+laMonths[9] = 'oktober';
+laMonths[10] = 'november';
+laMonths[11] = 'december';
+
+document.write(todays_date());
+
+</script>
+</p>
+<p>
+<script language='JavaScript'> 
+var laHDOW = new Array(7);
+laHDOW[0] = 'Al-Ahad,'
+laHDOW[1] = 'Al-Ithnayn,';
+laHDOW[2] = 'Ath-Thulathaa,';
+laHDOW[3] = 'Al-Arbi\'aa,';
+laHDOW[4] = 'Al-Khamies,';
+laHDOW[5] = 'Al-Jumu\'a,';
+laHDOW[6] = 'As-Sabt,';
+
+var laHMonths = new Array(12);
+laHMonths[0] = 'Muharram';
+laHMonths[1] = 'Safar';
+laHMonths[2] = 'Rabi\' al-Awwal';
+laHMonths[3] = 'Rabi\' ath-Thany';
+laHMonths[4] = 'Jumaada al-Ulaa';
+laHMonths[5] = 'Jumaada ath-Thania';
+laHMonths[6] = 'Rajab';
+laHMonths[7] = 'Sha\'baan';
+laHMonths[8] = 'Ramadaan';
+laHMonths[9] = 'Shawwaal';
+laHMonths[10] = 'Thul Qi\'da';
+laHMonths[11] = 'Thul Hija';
+
+document.write(todays_hijri_date());
+</script>
+</p>
+</body>
+</html>
