@@ -330,7 +330,7 @@ function sdate (pnDay, pnMonth, pnYear, plHflag) {
 }
 
 // Main function for date conversion
-function main(arg1, arg2, arg3, arg4) {
+function hijri_date(arg1, arg2, arg3, arg4) {
 	// Return passed gregorian date as the correspoding date in the Hijri calendar, or
 	// passed Hijri date as the corresponding gregorian date 
 	// (-h switch required for conversion from Hijri, use usage)
@@ -423,7 +423,7 @@ function todays_hijri_date() {
 	var lnYear = ldDate.getFullYear(); 
 
 	// Call the function to return today's date in the hijri calendar as a string
-	return main(lnDay, lnMonth, lnYear);
+	return hijri_date(lnDay, lnMonth, lnYear);
 }
 
 function todays_date() {
